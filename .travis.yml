@@ -1,8 +1,7 @@
-language: java
 sudo: required
 services:
   - docker
-  
+
 before_install:
   - echo We are going to build the project
 
