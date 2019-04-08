@@ -12,6 +12,7 @@
 /frontend//build
 
 # misc
+.gitignire
 .DS_Store
 .env.local
 .env.development.local
