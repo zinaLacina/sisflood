@@ -1,0 +1,29 @@
+sudo: required
+services:
+  - docker
+
+after_success:
+  - docker build -t zinalacina/sisflood-frontend ./frontend
+  - docker build -t zinalacina/sisflood-nginx ./nginx
+  # - docker build -t stephengrider/sisflood-server ./server
+  # - docker build -t stephengrider/sisflood-worker ./worker
+  # Log in to the docker CLI
+  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
+  # Take those images and push them to docker hub
+  - docker push zinalacina/sisflood-client
+  - docker push zinalacina/sisflood-nginx
+  # - docker push zinalacina/sisflood-server
+  # - docker push zinalacina/sisflood-worker
+
+deploy:
+  provider: elasticbeanstalk
+  region: ap-northeast-1
+  app: sisflood
+  env: sisflood-env
+  bucket_name: elasticbeanstalk-ap-northeast-1-300675951292
+  bucket_path: sisflood
+  on:
+    branch: master
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key:
+    secure: $AWS_SECRET_KEY
