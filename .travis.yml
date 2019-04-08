@@ -1,9 +1,14 @@
-language: ruby
+language: java
 sudo: required
 services:
   - docker
+  
 before_install:
   - echo We are going to build the project
+
+script:
+  - docker images ls
+
 after_success:
   - docker build -t zinalacina/sisflood-frontend ./frontend
   - docker build -t zinalacina/sisflood-nginx ./nginx
