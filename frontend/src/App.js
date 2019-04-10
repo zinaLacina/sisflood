@@ -19,10 +19,11 @@ class App extends Component {
     var current = new Date().getTime();
 
     this.state = {
+
       viewport: {
-        latitude: 40,
-        longitude: -100,
-        zoom: 3,
+        latitude: -19.5210453,
+        longitude: 32.8113374,
+        zoom: 6,
         bearing: 0,
         pitch: 0
       },

@@ -25,7 +25,7 @@ deploy:
   provider: elasticbeanstalk
   region: ap-northeast-1
   app: sisflood
-  env: sisflood-env
+  env: Sisflood-env
   bucket_name: elasticbeanstalk-ap-northeast-1-300675951292
   bucket_path: sisflood
   on:
