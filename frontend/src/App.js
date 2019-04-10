@@ -50,9 +50,9 @@ class App extends Component {
     return features
       .filter(feature => {
         const featureDate = new Date(feature.properties.time);
-        return featureDate.getFullYear() == year
-          && featureDate.getMonth() == month
-          && featureDate.getDate() == day;
+        return featureDate.getFullYear() === year
+          && featureDate.getMonth() === month
+          && featureDate.getDate() === day;
       })};
 
   _mkHeatmapLayer = (id, source) => {

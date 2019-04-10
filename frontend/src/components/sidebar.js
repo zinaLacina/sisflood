@@ -18,13 +18,13 @@ import React, { Component } from 'react'
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="nav navbar-nav ml-auto">
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Home</a>
+                        <a className="nav-link" href="/">Home</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">How to use?</a>
+                        <a className="nav-link" href="/">How to use?</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">About us</a>
+                        <a className="nav-link" href="/">About us</a>
                     </li>
                     
                 </ul>

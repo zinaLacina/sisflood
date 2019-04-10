@@ -49,6 +49,9 @@ export default class ControlPanel extends PureComponent {
             onChange={_onChangeDay}
             />
         </div>
+        <div className="form-group">
+          <input type="date" className="form-control" />
+        </div>
         {/* < hr />
         <p>Data source: <a href="https://docs.mapbox.com/mapbox-gl-js/assets/earthquakes.geojson">earthquakes.geojson</a></p>
         <div className="source-link">
