@@ -1,0 +1,3 @@
+"precipType": "rain",
+"precipIntensityMax": 0.0129,
+"windSpeed": 3.34,

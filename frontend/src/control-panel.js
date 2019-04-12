@@ -1,12 +1,25 @@
 import React, {PureComponent} from 'react';
+import DatePicker from "react-datepicker";
 
 const defaultContainer = ({children}) => <div className="control-panel">{children}</div>;
 
 export default class ControlPanel extends PureComponent {
+
   render() {
-    const {startTime, endTime, onChangeDay, allDay, onChangeAllDay, selectedTime} = this.props;
+    const {handleChange, startTime, endTime, onChangeDay, allDay, onChangeAllDay, selectedTime} = this.props;
     const day = 24*60*60*1000;
     const days = Math.round((endTime - startTime) / day);
+
+    //New lign added
+    const startDate = new Date();
+
+    const _handleChange = evt => {
+      const daysChoose = evt.target.value;
+      handleChange(daysChoose);
+    }
+    // End new ligne added
+
+
 
     const _onChangeDay = evt => {
       const daysToAdd = evt.target.value;
@@ -14,6 +27,8 @@ export default class ControlPanel extends PureComponent {
       const newTime = startTime + (daysToAdd * day);
       onChangeDay(newTime);
     }
+
+    
 
     const formatTime = time => {
       const date = new Date(time);
@@ -50,7 +65,7 @@ export default class ControlPanel extends PureComponent {
             />
         </div>
         <div className="form-group">
-          <input type="date" className="form-control" />
+          <DatePicker selected={startDate} onChange={_handleChange} />
         </div>
         {/* < hr />
         <p>Data source: <a href="https://docs.mapbox.com/mapbox-gl-js/assets/earthquakes.geojson">earthquakes.geojson</a></p>

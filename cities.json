@@ -1,402 +1,602 @@
 [
     {
         "id": "244195",
-        "name": "Amatongas"
+        "name": "Amatongas",
+        "latitude": "",
+        "longitude":""
     },
     {
         "id": "244196",
-        "name": "Andrada"
+        "name": "Andrada",
+        "latitude": "",
+        "longitude":""
     },
     {
         "id": "244166",
-        "name": "Bandula"
+        "name": "Bandula",
+        "latitude": "",
+        "longitude":""
     },
     {
         "id": "244167",
-        "name": "Candeado"
+        "name": "Candeado",
+        "latitude": "",
+        "longitude":""
     },
     {
         "id": "244197",
-        "name": "Canhange"
+        "name": "Canhange",
+        "latitude": "",
+        "longitude":""
     },
     {
         "id": "244193",
-        "name": "Catandica"
+        "name": "Catandica",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Chicamba"
+        "id": "244168",
+        "name": "Chicamba",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Chimoio"
+        "id": "244164",
+        "name": "Chimoio",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Chirape"
+        "id": "244169",
+        "name": "Chirape",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Chitobe"
+        "id": "244170",
+        "name": "Chitobe",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Dombe"
+        "id": "244171",
+        "name": "Dombe",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Espungabera"
+        "id": "244172",
+        "name": "Espungabera",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Gogoi"
+        "id": "244173",
+        "name": "Gogoi",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Gondola"
+        "id": "244174",
+        "name": "Gondola",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Guro"
+        "id": "244176",
+        "name": "Guro",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Hacufera"
+        "id": "244177",
+        "name": "Hacufera",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Inchope"
+        "id": "244178",
+        "name": "Inchope",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Jete"
+        "id": "244198",
+        "name": "Jete",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Jimo"
+        "id": "1489372",
+        "name": "Jimo",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Jo"
+        "id": "1489360",
+        "name": "Jo",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Jo"
+        "id": "1489359",
+        "name": "Jo",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Joanasse"
+        "id": "1489356",
+        "name": "Joanasse",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Joane"
+        "id": "1489353",
+        "name": "Joane",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Joane"
+        "id": "1489355",
+        "name": "Joane",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Joanguete"
+        "id": "1489351",
+        "name": "Joanguete",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Joao"
+        "id": "1489343",
+        "name": "Joao",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Joaquim"
+        "id": "1489326",
+        "name": "Joaquim",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Jofrisse"
+        "id": "1489311",
+        "name": "Jofrisse",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "John"
+        "id": "1489305",
+        "name": "John",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Jojo"
+        "id": "1489297",
+        "name": "Jojo",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Jojo"
+        "id": "1489296",
+        "name": "Jojo",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Jona"
+        "id": "1489281",
+        "name": "Jona",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Jone"
+        "id": "1489269",
+        "name": "Jone",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Jorge"
+        "id": "1489258",
+        "name": "Jorge",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Jorge"
+        "id": "1489259",
+        "name": "Jorge",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Jornal"
+        "id": "1489256",
+        "name": "Jornal",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Jose"
+        "id": "1489253",
+        "name": "Jose",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Josefa"
+        "id": "1489249",
+        "name": "Josefa",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Jossefe"
+        "id": "1489240",
+        "name": "Jossefe",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Jovana"
+        "id": "1489234",
+        "name": "Jovana",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Juaque"
+        "id": "1489231",
+        "name": "Juaque",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Julai"
+        "id": "1489219",
+        "name": "Julai",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Juza"
+        "id": "1489196",
+        "name": "Juza",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Laice"
+        "id": "1489176",
+        "name": "Laice",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Laisse"
+        "id": "1489170",
+        "name": "Laisse",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Lambo"
+        "id": "1489159",
+        "name": "Lambo",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Lampeao"
+        "id": "1489155",
+        "name": "Lampeao",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Languane"
+        "id": "1489139",
+        "name": "Languane",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Languene"
+        "id": "1489136",
+        "name": "Languene",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Laquia"
+        "id": "1489123",
+        "name": "Laquia",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Lare"
+        "id": "1489119",
+        "name": "Lare",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Lazao"
+        "id": "1489105",
+        "name": "Lazao",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Levene"
+        "id": "1489083",
+        "name": "Levene",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Licau"
+        "id": "1489061",
+        "name": "Licau",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Lisboa"
+        "id": "1488999",
+        "name": "Lisboa",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Lixiche"
+        "id": "1692700",
+        "name": "Lixiche",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Lundo"
+        "id": "244179",
+        "name": "Lundo",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Mabalane"
+        "id": "1488871",
+        "name": "Mabalane",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Mabalau"
+        "id": "1488870",
+        "name": "Mabalau",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Mabar"
+        "id": "1488864",
+        "name": "Mabar",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Mabeia"
+        "id": "1488858",
+        "name": "Mabeia",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Mabeleza"
+        "id": "1488855",
+        "name": "Mabeleza",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Mabizuene"
+        "id": "1488841",
+        "name": "Mabizuene",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Mabona"
+        "id": "1488837",
+        "name": "Mabona",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Mabota"
+        "id": "1488833",
+        "name": "Mabota",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Mabue"
+        "id": "1488824",
+        "name": "Mabue",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Mabuia"
+        "id": "1488823",
+        "name": "Mabuia",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Mabuiana"
+        "id": "1488822",
+        "name": "Mabuiana",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Mabunguolo"
+        "id": "1488813",
+        "name": "Mabunguolo",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Mabuno"
+        "id": "1488812",
+        "name": "Mabuno",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Mabuto"
+        "id": "1692710",
+        "name": "Mabuto",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Mabuza"
+        "id": "1488810",
+        "name": "Mabuza",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Mabzarila"
+        "id": "1488809",
+        "name": "Mabzarila",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Macacha"
+        "id": "1488801",
+        "name": "Macacha",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Macaia"
+        "id": "1488793",
+        "name": "Macaia",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Macamba"
+        "id": "1488780",
+        "name": "Macamba",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Macanja"
+        "id": "1488751",
+        "name": "Macanja",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Macarichi"
+        "id": "1488744",
+        "name": "Macarichi",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Macasa"
+        "id": "1488737",
+        "name": "Macasa",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Macate"
+        "id": "1692733",
+        "name": "Macate",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Macaza"
+        "id": "1488713",
+        "name": "Macaza",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Macobere"
+        "id": "244180",
+        "name": "Macobere",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Macossa"
+        "id": "244181",
+        "name": "Macossa",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Madzuire"
+        "id": "244182",
+        "name": "Madzuire",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Mandie"
+        "id": "244183",
+        "name": "Mandie",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Manica"
+        "id": "244184",
+        "name": "Manica",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Mavita"
+        "id": "244185",
+        "name": "Mavita",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Mavonde"
+        "id": "244186",
+        "name": "Mavonde",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Mungari"
+        "id": "244187",
+        "name": "Mungari",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Mutanda"
+        "id": "244194",
+        "name": "Mutanda",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Quedas"
+        "id": "244188",
+        "name": "Quedas",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Rotanda"
+        "id": "244189",
+        "name": "Rotanda",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Sambanhe"
+        "id": "244199",
+        "name": "Sambanhe",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Tambara"
+        "id": "244190",
+        "name": "Tambara",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Tsetsserra"
+        "id": "244200",
+        "name": "Tsetsserra",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Vanduzi"
+        "id": "244191",
+        "name": "Vanduzi",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Vila Nova de Vidigueira"
+        "id": "244192",
+        "name": "Vila Nova de Vidigueira",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Xecuecuete"
+        "id": "244201",
+        "name": "Xecuecuete",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Zembe"
+        "id": "244202",
+        "name": "Zembe",
+        "latitude": "",
+        "longitude":""
     },
     {
-        "id": "",
-        "name": "Zubo"
+        "id": "244203",
+        "name": "Zubo",
+        "latitude": "",
+        "longitude":""
     }
 ]
