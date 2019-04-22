@@ -1,45 +1,23 @@
 version: '3'
 services:
-  # postgres:
-  #   image: 'postgres:latest'
-  # redis:
-  #   image: 'redis:latest'
-  nginx:
+  floodapi:
+    build:
+      dockerfile: Dockerfile
+      context: ./backend
+    volumes:
+      - ./backend/:/app 
+    ports:
+     - "5000:5000"
+    environment:
+     - DARK_SKY_API_KEY=ac49424582fd2f061dd0f3ac9fe66076
+
+  frontend:
     restart: always
     build:
       dockerfile: Dockerfile
-      context: ./nginx
-    ports:
-      - '3050:80'
-  # api:
-  #   build:
-  #     dockerfile: Dockerfile
-  #     context: ./server
-  #   volumes:
-  #     - /app/node_modules
-  #     - ./server:/app
-  #   environment:
-  #     - REDIS_HOST=redis
-  #     - REDIS_PORT=6379
-  #     - PGUSER=postgres
-  #     - PGHOST=postgres
-  #     - PGDATABASE=postgres
-  #     - PGPASSWORD=postgres_password
-  #     - PGPORT=5432
-  frontend:
-    build:
-      dockerfile: Dockerfile
       context: ./frontend
-    volumes:
-      - /app/node_modules
-      - ./frontend:/app
-  # worker:
-  #   environment:
-  #     - REDIS_HOST=redis
-  #     - REDIS_PORT=6379
-  #   build:
-  #     dockerfile: Dockerfile.dev
-  #     context: ./worker
-  #   volumes:
-  #     - /app/node_modules
-  #     - ./worker:/app
+    ports:
+      - '3500:80'
+    environment:
+     - REACT_APP_GOOGLE_API_KEY=AIzaSyC2qcWx-Xcjy3KPjNs2mUHrsQ2HP9fXwWM
+     - REACT_APP_EZW_API=http://0.0.0.0:5000/api/floodapi

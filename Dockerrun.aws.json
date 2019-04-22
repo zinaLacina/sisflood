@@ -2,16 +2,22 @@
     "AWSEBDockerrunVersion": 2,
     "containerDefinitions": [
       {
-        "name": "frontend",
-        "image": "zinalacina/sisflood-frontend",
-        "hostname": "frontend",
+        "name": "sisflood-backend",
+        "image": "300675951292.dkr.ecr.ap-northeast-1.amazonaws.com/sisflood/backend:latest",
+        "hostname": "sisflood-backend",
         "essential": false,
+        "portMappings": [
+          {
+            "hostPort": 5000,
+            "containerPort": 5000
+          }
+        ],
         "memory": 128
       },
       {
-        "name": "nginx",
-        "image": "zinalacina/sisflood-nginx",
-        "hostname": "nginx",
+        "name": "sisflood-frontend",
+        "image": "300675951292.dkr.ecr.ap-northeast-1.amazonaws.com/sisflood/frontend:latest",
+        "hostname": "sisflood-frontend",
         "essential": true,
         "portMappings": [
           {
@@ -19,7 +25,7 @@
             "containerPort": 80
           }
         ],
-        "links": ["frontend"],
+        "links": ["sisflood-backend"],
         "memory": 128
       }
     ]
